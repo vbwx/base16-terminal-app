@@ -1,0 +1,15 @@
+default:
+    extension: .terminal
+    output: profiles
+    plistTemplate: Pro.terminal
+    colorTemplate: NSColor.plist
+    noPrefix: 1
+    niceFilename: 1
+
+256:
+    extension: .terminal
+    output: profiles-256
+    plistTemplate: Pro.terminal
+    colorTemplate: NSColor.plist
+    noPrefix: 1
+    niceFilename: 1
