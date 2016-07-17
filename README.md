@@ -23,4 +23,5 @@ Since `.terminal` files contain a bunch of settings in addition to the color def
 ## Demo
 
 ![Tomorrow Night profile](assets/tomorrow-night.png)
+
 For this screenshot, I used *Tomorrow Night* with *DejaVu Sans Mono for Powerline* (12pt) as font, along with [Prezto](https://github.com/vbwx/prezto) (my favorite Zsh configuration framework).
