@@ -1,6 +1,6 @@
 # Base16 for Terminal.app
 
-These profiles bring the [Base16 colors](https://github.com/chriskempson/base16) to the Terminal of macOS.
+These profiles bring the [base16 colors](https://github.com/chriskempson/base16) to the Terminal of macOS.
 
 ## Installation
 
@@ -16,7 +16,7 @@ open *.terminal  # or whichever profiles you like
 
 Since `.terminal` files contain a bunch of settings in addition to the color definitions, you probably want these profiles to inherit all settings from a profile of your choice.
 
-1. Download [my fork of the Base16 Builder](https://github.com/vbwx/base16-builder-php).
+1. Download [my fork of the base16 Builder](https://github.com/vbwx/base16-builder-php).
 
 2. In Terminal, choose *Shell* > *Export Settings&hellip;* and save the file into the folder you just downloaded. (You can also export profiles in the *Profiles* section of the *Preferences* window.)
 
