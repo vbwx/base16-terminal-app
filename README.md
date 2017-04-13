@@ -35,3 +35,9 @@ open *.terminal  # or whichever profiles you like
 
 For this screenshot, I used *Tomorrow Night* with *DejaVu Sans Mono for Powerline* (12pt) as font,
 along with [Prezto](https://github.com/vbwx/prezto) (my favorite Zsh configuration framework).
+
+**FYI:** You can also download
+[my personally customized set of profiles](https://github.com/vbwx/base16-terminal-app/releases/download/1704/base16-terminal.dmg),
+which are using this DejaVu font and feature a couple of improvements over the default profiles,
+such as a pretty complete list of bindings for modifier keys (taken from
+[this GitHub repository](https://github.com/google/terminal-app-function-keys)).
