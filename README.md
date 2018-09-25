@@ -37,7 +37,7 @@ For this screenshot, I used *Tomorrow Night* with *DejaVu Sans Mono for Powerlin
 along with [Prezto](https://github.com/vbwx/prezto) (my favorite Zsh configuration framework).
 
 **Tip:** You can also download
-[my personally customized set of profiles](https://github.com/vbwx/base16-terminal-app/releases/download/1704/base16-terminal.dmg),
+[my personally customized set of profiles](https://github.com/vbwx/base16-terminal-app/releases/download/1809/base16-terminal.dmg),
 which use exactly this font and come with a few improvements over the default profiles,
 such as a pretty complete list of bindings for modifier keys (taken from
 [this GitHub repository](https://github.com/google/terminal-app-function-keys)).
