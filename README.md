@@ -20,6 +20,7 @@ probably want these profiles to inherit all settings from a profile of your choi
 window.)
 
 3. Execute the following commands. (Replace &ldquo;MyProfile&rdquo; with the name of your profile.)
+
 ```sh
 cd ~/Downloads/base16-builder-php-master  # the folder you downloaded in step 1
 composer install  # depends on your Composer setup
