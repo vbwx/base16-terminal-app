@@ -1,0 +1,25 @@
+# Terminal.app Template (preserves default ANSI colors)
+# (C) 2016 Bernhard Waldbrunner (http://www.rethinkux.com)
+
+name: Tokyo Night Light
+ANSIBlackColor:   
+ANSIBlueColor:   
+ANSIBrightBlackColor:   
+ANSIBrightBlueColor:   
+ANSIBrightCyanColor:   
+ANSIBrightGreenColor:   
+ANSIBrightMagentaColor:   
+ANSIBrightRedColor:   
+ANSIBrightWhiteColor:   
+ANSIBrightYellowColor:   
+ANSICyanColor:   
+ANSIGreenColor:   
+ANSIMagentaColor:   
+ANSIRedColor:   
+ANSIWhiteColor:   
+ANSIYellowColor:   
+BackgroundColor:   
+CursorColor:   
+SelectionColor:   
+TextBoldColor:   
+TextColor:   
