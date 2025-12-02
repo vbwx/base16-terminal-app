@@ -4,9 +4,8 @@ These profiles bring the [base16 colors](https://github.com/chriskempson/base16)
 
 ## Installation
 
-Just open the downloaded `profiles` folder in the Finder (or `profiles-256` if your Terminal
-supports the ANSI-256 colorspace), select the profiles you want to install, right-click on the files
-and click *Open*. (Otherwise, [Gatekeeper](https://support.apple.com/en-us/HT202491) might complain.)
+In Terminal, select *Terminal* > *Preferences*/*Settings* > *Profiles*. Then open the downloaded `profiles`
+folder in the Finder and drag the files you want to install into the list of Terminal profiles.
 
 ## Customization
 
@@ -15,8 +14,8 @@ probably want these profiles to inherit all settings from a profile of your choi
 
 1. Download [my fork of the base16 Builder](https://github.com/vbwx/base16-builder-php).
 
-2. In Terminal, choose *Shell* > *Export Settings&hellip;* and save the file into the folder you
-   just downloaded. (You can also export profiles in the *Profiles* section of the *Preferences*
+2. In Terminal, select *Shell* > *Export Settings* and save the file into the folder you
+   just downloaded. (You can also export profiles in the *Profiles* section of the *Preferences*/*Settings*
 window.)
 
 3. Execute the following commands. (Replace &ldquo;MyProfile&rdquo; with the name of your profile.)
@@ -24,21 +23,23 @@ window.)
 ```sh
 cd ~/Downloads/base16-builder-php-master  # the folder you downloaded in step 1
 composer install  # depends on your Composer setup
-php Builder.php update
+php Builder.php -update
 php Builder.php -p "MyProfile.terminal"
-cd templates/terminal-app/profiles  # or profiles-256 if your Terminal supports the ANSI 256 colorspace
-open *.terminal  # or whichever profiles you like
 ```
+
+4. In Terminal, select *Terminal* > *Preferences*/*Settings* > *Profiles*.
+
+5. Drag your preferred profiles into the list of installed profiles.
 
 ## Demo
 
-![Tomorrow Night profile](assets/tomorrow-night.png)
+![Atelier Sulphurpool profile](assets/atelier-sulphurpool.png)
 
-For this screenshot, I used *Tomorrow Night* with *DejaVu Sans Mono for Powerline* (12pt) as font,
-along with [Prezto](https://github.com/vbwx/prezto) (my favorite Zsh configuration framework).
+For this screenshot, I used *Atelier Sulphurpool* with *FiraMono Nerd Font* (11pt) as font,
+along with [Oh My Zsh](https://ohmyz.sh) (my favorite Zsh configuration framework) and the
+[Powerlevel10k](https://github.com/romkatv/powerlevel10k) theme.
 
-**Tip:** You can also download
-[my personally customized set of profiles](https://github.com/vbwx/base16-terminal-app/releases/download/2305/base16-terminal.dmg),
-which use exactly this font and come with a few improvements over the default profiles,
-such as a pretty complete list of bindings for modifier keys (taken from
-[this GitHub repository](https://github.com/google/terminal-app-function-keys)).
+**Hint:** You can also download
+[my personally customized set of profiles](https://github.com/vbwx/base16-terminal-app/releases/download/2512/base16-terminal.dmg),
+which use exactly this font and come with a few improvements over the default profiles (IMHO),
+such as a blurry, transparent background for inactive windows.
