@@ -1,6 +1,6 @@
 # Base16 for Terminal.app
 
-These profiles bring the [base16 colors](https://github.com/chriskempson/base16) to the Terminal of macOS.
+These profiles bring the [Base16 colors](https://github.com/chriskempson/base16) to the Terminal of macOS.
 
 ## Installation
 
@@ -10,9 +10,10 @@ folder in the Finder and drag the files you want to install into the list of Ter
 ## Customization
 
 Since `.terminal` files contain a bunch of settings in addition to the color definitions, you
-probably want these profiles to inherit all settings from a profile of your choice.
+probably want these profiles to inherit all settings from a profile of your choice. (By default, my
+builder extends the *Basic* profile, which is one of the default profiles provided by Apple.)
 
-1. Download [my fork of the base16 Builder](https://github.com/vbwx/base16-builder-php).
+1. Download [my fork of the Base16 Builder](https://github.com/vbwx/base16-builder-php).
 
 2. In Terminal, select *Shell* > *Export Settings* and save the file into the folder you
    just downloaded. (You can also export profiles in the *Profiles* section of the *Preferences*/*Settings*
@@ -33,13 +34,12 @@ php Builder.php -p "MyProfile.terminal"
 
 ## Demo
 
-![Atelier Sulphurpool profile](assets/atelier-sulphurpool.png)
-
-For this screenshot, I used *Atelier Sulphurpool* with *FiraMono Nerd Font* (11pt) as font,
+![Atelier Sulphurpool profile in action](assets/atelier-sulphurpool.png)\
+For this screenshot, I used *Atelier Sulphurpool* with the *FiraMono Nerd Font* (11pt),
 along with [Oh My Zsh](https://ohmyz.sh) (my favorite Zsh configuration framework) and the
 [Powerlevel10k](https://github.com/romkatv/powerlevel10k) theme.
 
-**Hint:** You can also download
+**Hint:** You can download
 [my personally customized set of profiles](https://github.com/vbwx/base16-terminal-app/releases/download/2512/base16-terminal.dmg),
 which use exactly this font and come with a few improvements over the default profiles (IMHO),
 such as a blurry, transparent background for inactive windows.
