@@ -5,7 +5,7 @@ These profiles bring the [Base16 colors](https://github.com/chriskempson/base16)
 ## Installation
 
 In Terminal, select *Terminal* > *Preferences*/*Settings* > *Profiles*. Then open the downloaded `profiles`
-folder in the Finder and drag the files you want to install into the list of Terminal profiles.
+folder in the Finder and drag the files you want to install into the list of profiles.
 
 ## Customization
 
