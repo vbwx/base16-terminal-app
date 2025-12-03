@@ -35,9 +35,9 @@ php Builder.php -p "MyProfile.terminal"
 ## Demo
 
 ![Atelier Sulphurpool profile in action](assets/atelier-sulphurpool.png)\
-For this screenshot, I used *Atelier Sulphurpool* with the *FiraMono Nerd Font* (11pt),
-along with [Oh My Zsh](https://ohmyz.sh) (my favorite Zsh configuration framework) and the
-[Powerlevel10k](https://github.com/romkatv/powerlevel10k) theme.
+For this screenshot, I used the *Atelier Sulphurpool* profile with the
+[FiraMono Nerd Font](https://www.nerdfonts.com/font-downloads#:~:text=FiraMono) (11pt),
+along with [Oh My Zsh](https://ohmyz.sh) and the [Powerlevel10k](https://github.com/romkatv/powerlevel10k) theme.
 
 **Hint:** You can download
 [my personally customized set of profiles](https://github.com/vbwx/base16-terminal-app/releases/download/2512/base16-terminal.dmg),
