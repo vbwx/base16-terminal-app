@@ -40,6 +40,6 @@ For this screenshot, I used the *Atelier Sulphurpool* profile with the
 along with [Oh My Zsh](https://ohmyz.sh) and the [Powerlevel10k](https://github.com/romkatv/powerlevel10k) theme.
 
 **Hint:** You can download
-[my personally customized set of profiles](https://github.com/vbwx/base16-terminal-app/releases/download/2512/base16-terminal.dmg),
+[my personally customized set of profiles](https://github.com/vbwx/base16-terminal-app/releases/download/2606/base16-terminal.dmg),
 which use exactly this font and come with a few improvements over the default profiles (IMHO),
 such as a blurry, transparent background for inactive windows.
